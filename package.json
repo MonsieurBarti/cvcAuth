@@ -1,7 +1,7 @@
 {
 	"name": "cvcreator",
 	"version": "2.0.0",
-	"description": "Node.js authentication with Passport",
+	"description": "CVCreator authentication base",
 	"main": "app.js",
 	"scripts": {
 		"start": "node app.js",
