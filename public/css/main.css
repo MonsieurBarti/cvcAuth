@@ -5,3 +5,10 @@ body {
 	font-family: sans-serif;
 	background-size: 100%;
 }
+
+.logo {
+	margin-left: 42.5%;
+	margin-bottom: 5%;
+	width: 75px;
+	height: 75px;
+}
