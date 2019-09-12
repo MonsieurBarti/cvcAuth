@@ -6,8 +6,13 @@
 			<% include ./partials/messages %>
 			<form action="/users/register" method="POST">
 				<div class="form-group">
+					<label for="Firstname">Firstname</label>
+					<input type="name" id="Firstname" name="Firstname" class="form-control" placeholder="Enter your firstname"
+						value="<%= typeof name != 'undefined' ? name : '' %>" />
+				</div>
+				<div class="form-group">
 					<label for="name">Name</label>
-					<input type="name" id="name" name="name" class="form-control" placeholder="Enter Name"
+					<input type="name" id="name" name="name" class="form-control" placeholder="Enter your name"
 						value="<%= typeof name != 'undefined' ? name : '' %>" />
 				</div>
 				<div class="form-group">
